@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4167C8E01E7162410011007A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4167C8DF1E7162410011007A /* AppDelegate.swift */; };
+		4167C8E21E7162410011007A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4167C8E11E7162410011007A /* ViewController.swift */; };
+		4167C8E51E7162410011007A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4167C8E31E7162410011007A /* Main.storyboard */; };
+		4167C8E71E7162410011007A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4167C8E61E7162410011007A /* Assets.xcassets */; };
+		4167C8EA1E7162410011007A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4167C8E81E7162410011007A /* LaunchScreen.storyboard */; };
+		4167C8F51E7162410011007A /* MapGo_NUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4167C8F41E7162410011007A /* MapGo_NUTests.swift */; };
+		4167C9001E7162420011007A /* MapGo_NUUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4167C8FF1E7162420011007A /* MapGo_NUUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4167C8F11E7162410011007A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4167C8D41E7162410011007A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4167C8DB1E7162410011007A;
+			remoteInfo = "MapGo-NU";
+		};
+		4167C8FC1E7162420011007A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4167C8D41E7162410011007A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4167C8DB1E7162410011007A;
+			remoteInfo = "MapGo-NU";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4167C8DC1E7162410011007A /* MapGo-NU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MapGo-NU.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4167C8DF1E7162410011007A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4167C8E11E7162410011007A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4167C8E41E7162410011007A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4167C8E61E7162410011007A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4167C8E91E7162410011007A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4167C8EB1E7162410011007A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4167C8F01E7162410011007A /* MapGo-NUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MapGo-NUTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4167C8F41E7162410011007A /* MapGo_NUTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapGo_NUTests.swift; sourceTree = "<group>"; };
+		4167C8F61E7162420011007A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4167C8FB1E7162420011007A /* MapGo-NUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MapGo-NUUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4167C8FF1E7162420011007A /* MapGo_NUUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapGo_NUUITests.swift; sourceTree = "<group>"; };
+		4167C9011E7162420011007A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4167C8D91E7162410011007A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4167C8ED1E7162410011007A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4167C8F81E7162420011007A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4167C8D31E7162410011007A = {
+			isa = PBXGroup;
+			children = (
+				4167C8DE1E7162410011007A /* MapGo-NU */,
+				4167C8F31E7162410011007A /* MapGo-NUTests */,
+				4167C8FE1E7162420011007A /* MapGo-NUUITests */,
+				4167C8DD1E7162410011007A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4167C8DD1E7162410011007A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4167C8DC1E7162410011007A /* MapGo-NU.app */,
+				4167C8F01E7162410011007A /* MapGo-NUTests.xctest */,
+				4167C8FB1E7162420011007A /* MapGo-NUUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4167C8DE1E7162410011007A /* MapGo-NU */ = {
+			isa = PBXGroup;
+			children = (
+				4167C8DF1E7162410011007A /* AppDelegate.swift */,
+				4167C8E11E7162410011007A /* ViewController.swift */,
+				4167C8E31E7162410011007A /* Main.storyboard */,
+				4167C8E61E7162410011007A /* Assets.xcassets */,
+				4167C8E81E7162410011007A /* LaunchScreen.storyboard */,
+				4167C8EB1E7162410011007A /* Info.plist */,
+			);
+			path = "MapGo-NU";
+			sourceTree = "<group>";
+		};
+		4167C8F31E7162410011007A /* MapGo-NUTests */ = {
+			isa = PBXGroup;
+			children = (
+				4167C8F41E7162410011007A /* MapGo_NUTests.swift */,
+				4167C8F61E7162420011007A /* Info.plist */,
+			);
+			path = "MapGo-NUTests";
+			sourceTree = "<group>";
+		};
+		4167C8FE1E7162420011007A /* MapGo-NUUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4167C8FF1E7162420011007A /* MapGo_NUUITests.swift */,
+				4167C9011E7162420011007A /* Info.plist */,
+			);
+			path = "MapGo-NUUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4167C8DB1E7162410011007A /* MapGo-NU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4167C9041E7162420011007A /* Build configuration list for PBXNativeTarget "MapGo-NU" */;
+			buildPhases = (
+				4167C8D81E7162410011007A /* Sources */,
+				4167C8D91E7162410011007A /* Frameworks */,
+				4167C8DA1E7162410011007A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MapGo-NU";
+			productName = "MapGo-NU";
+			productReference = 4167C8DC1E7162410011007A /* MapGo-NU.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4167C8EF1E7162410011007A /* MapGo-NUTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4167C9071E7162420011007A /* Build configuration list for PBXNativeTarget "MapGo-NUTests" */;
+			buildPhases = (
+				4167C8EC1E7162410011007A /* Sources */,
+				4167C8ED1E7162410011007A /* Frameworks */,
+				4167C8EE1E7162410011007A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4167C8F21E7162410011007A /* PBXTargetDependency */,
+			);
+			name = "MapGo-NUTests";
+			productName = "MapGo-NUTests";
+			productReference = 4167C8F01E7162410011007A /* MapGo-NUTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4167C8FA1E7162420011007A /* MapGo-NUUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4167C90A1E7162420011007A /* Build configuration list for PBXNativeTarget "MapGo-NUUITests" */;
+			buildPhases = (
+				4167C8F71E7162420011007A /* Sources */,
+				4167C8F81E7162420011007A /* Frameworks */,
+				4167C8F91E7162420011007A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4167C8FD1E7162420011007A /* PBXTargetDependency */,
+			);
+			name = "MapGo-NUUITests";
+			productName = "MapGo-NUUITests";
+			productReference = 4167C8FB1E7162420011007A /* MapGo-NUUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4167C8D41E7162410011007A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = siwaweswongcharoen;
+				TargetAttributes = {
+					4167C8DB1E7162410011007A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XYW2JG27N9;
+						ProvisioningStyle = Automatic;
+					};
+					4167C8EF1E7162410011007A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XYW2JG27N9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4167C8DB1E7162410011007A;
+					};
+					4167C8FA1E7162420011007A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XYW2JG27N9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4167C8DB1E7162410011007A;
+					};
+				};
+			};
+			buildConfigurationList = 4167C8D71E7162410011007A /* Build configuration list for PBXProject "MapGo-NU" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4167C8D31E7162410011007A;
+			productRefGroup = 4167C8DD1E7162410011007A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4167C8DB1E7162410011007A /* MapGo-NU */,
+				4167C8EF1E7162410011007A /* MapGo-NUTests */,
+				4167C8FA1E7162420011007A /* MapGo-NUUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4167C8DA1E7162410011007A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4167C8EA1E7162410011007A /* LaunchScreen.storyboard in Resources */,
+				4167C8E71E7162410011007A /* Assets.xcassets in Resources */,
+				4167C8E51E7162410011007A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4167C8EE1E7162410011007A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4167C8F91E7162420011007A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4167C8D81E7162410011007A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4167C8E21E7162410011007A /* ViewController.swift in Sources */,
+				4167C8E01E7162410011007A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4167C8EC1E7162410011007A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4167C8F51E7162410011007A /* MapGo_NUTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4167C8F71E7162420011007A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4167C9001E7162420011007A /* MapGo_NUUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4167C8F21E7162410011007A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4167C8DB1E7162410011007A /* MapGo-NU */;
+			targetProxy = 4167C8F11E7162410011007A /* PBXContainerItemProxy */;
+		};
+		4167C8FD1E7162420011007A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4167C8DB1E7162410011007A /* MapGo-NU */;
+			targetProxy = 4167C8FC1E7162420011007A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4167C8E31E7162410011007A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4167C8E41E7162410011007A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4167C8E81E7162410011007A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4167C8E91E7162410011007A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4167C9021E7162420011007A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4167C9031E7162420011007A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4167C9051E7162420011007A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XYW2JG27N9;
+				INFOPLIST_FILE = "MapGo-NU/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.siwaweswongcharoen.MapGo-NU";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4167C9061E7162420011007A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XYW2JG27N9;
+				INFOPLIST_FILE = "MapGo-NU/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.siwaweswongcharoen.MapGo-NU";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4167C9081E7162420011007A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XYW2JG27N9;
+				INFOPLIST_FILE = "MapGo-NUTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.siwaweswongcharoen.MapGo-NUTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapGo-NU.app/MapGo-NU";
+			};
+			name = Debug;
+		};
+		4167C9091E7162420011007A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XYW2JG27N9;
+				INFOPLIST_FILE = "MapGo-NUTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.siwaweswongcharoen.MapGo-NUTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapGo-NU.app/MapGo-NU";
+			};
+			name = Release;
+		};
+		4167C90B1E7162420011007A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = XYW2JG27N9;
+				INFOPLIST_FILE = "MapGo-NUUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.siwaweswongcharoen.MapGo-NUUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "MapGo-NU";
+			};
+			name = Debug;
+		};
+		4167C90C1E7162420011007A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = XYW2JG27N9;
+				INFOPLIST_FILE = "MapGo-NUUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.siwaweswongcharoen.MapGo-NUUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "MapGo-NU";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4167C8D71E7162410011007A /* Build configuration list for PBXProject "MapGo-NU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4167C9021E7162420011007A /* Debug */,
+				4167C9031E7162420011007A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4167C9041E7162420011007A /* Build configuration list for PBXNativeTarget "MapGo-NU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4167C9051E7162420011007A /* Debug */,
+				4167C9061E7162420011007A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4167C9071E7162420011007A /* Build configuration list for PBXNativeTarget "MapGo-NUTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4167C9081E7162420011007A /* Debug */,
+				4167C9091E7162420011007A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4167C90A1E7162420011007A /* Build configuration list for PBXNativeTarget "MapGo-NUUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4167C90B1E7162420011007A /* Debug */,
+				4167C90C1E7162420011007A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4167C8D41E7162410011007A /* Project object */;
+}
