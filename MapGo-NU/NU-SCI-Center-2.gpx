@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="Xcode">
+    
+    <!--
+     Provide one or more waypoints containing a latitude/longitude pair. If you provide one
+     waypoint, Xcode will simulate that specific location. If you provide multiple waypoints,
+     Xcode will simulate a route visiting each waypoint.
+     -->
+    <wpt lat="16.742081" lon="100.194224">
+        <name>NU-CSI-Center-2</name>
+        <time>2014-09-24T14:50:00Z</time>
+    </wpt>
+    <wpt lat="16.741871" lon="100.194501">
+        <name>NU-CSI-Center-2</name>
+        <time>2014-09-24T14:50:30Z</time>
+    </wpt>
+    <wpt lat="16.741630" lon="100.194420">
+        <name>NU-CSI-Center-2</name>
+        <time>2014-09-24T14:51:00Z</time>
+    </wpt>
+    <wpt lat="16.741381" lon="100.194541">
+        <name>NU-CSI-Center-2</name>
+        <time>2014-09-24T14:51:30Z</time>
+    </wpt>
+    
+    <wpt lat="16.741386" lon="100.194112">
+        <name>NU-CSI-Center-2</name>
+        <time>2014-09-24T14:52:00Z</time>
+    </wpt>
+    <wpt lat="16.741466" lon="100.193632">
+        <name>NU-CSI-Center-2</name>
+        <time>2014-09-24T14:52:30Z</time>
+    </wpt>
+    <wpt lat="16.742057" lon="100.193058">
+        <name>NU-CSI-Center-2</name>
+        <time>2014-09-24T14:53:00Z</time>
+    </wpt>
+    <wpt lat="16.742213" lon="100.193729">
+        <name>NU-CSI-Center-2</name>
+        <time>2014-09-24T14:53:30Z</time>
+    </wpt>
+    
+    
+    
+</gpx>

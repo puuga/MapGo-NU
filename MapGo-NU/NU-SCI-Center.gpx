@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="Xcode">
+    
+    <!--
+     Provide one or more waypoints containing a latitude/longitude pair. If you provide one
+     waypoint, Xcode will simulate that specific location. If you provide multiple waypoints,
+     Xcode will simulate a route visiting each waypoint.
+     -->
+    <wpt lat="16.741892" lon="100.194118">
+        <name>NU-Sci</name>
+        <time>2014-09-24T14:55:07Z</time>
+    </wpt>
+    <wpt lat="16.741895" lon="100.194114">
+        <name>NU-Sci</name>
+        <time>2014-09-24T14:55:17Z</time>
+    </wpt>
+    <wpt lat="16.741888" lon="100.194119">
+        <name>NU-Sci</name>
+        <time>2014-09-24T14:55:27Z</time>
+    </wpt>
+    <wpt lat="16.741897" lon="100.194112">
+        <name>NU-Sci</name>
+        <time>2014-09-24T14:55:37Z</time>
+    </wpt>
+    
+    <wpt lat="16.741704" lon="100.194118">
+        <name>NU-Sci</name>
+        <time>2014-09-24T14:55:47Z</time>
+    </wpt>
+    <wpt lat="16.741708" lon="100.194113">
+        <name>NU-Sci</name>
+        <time>2014-09-24T14:55:57Z</time>
+    </wpt>
+    
+    <wpt lat="16.741898" lon="100.194114">
+        <name>NU-Sci</name>
+        <time>2014-09-24T14:56:07Z</time>
+    </wpt>
+    <wpt lat="16.741895" lon="100.194116">
+        <name>NU-Sci</name>
+        <time>2014-09-24T14:56:17Z</time>
+    </wpt>
+    
+    <wpt lat="16.741895" lon="100.194116">
+        <name>NU-Sci</name>
+        <time>2014-09-24T14:56:27Z</time>
+    </wpt>
+    <wpt lat="16.741591" lon="100.193427">
+        <name>NU-Sci</name>
+        <time>2014-09-24T14:56:37Z</time>
+    </wpt>
+    <wpt lat="16.741351" lon="100.193450">
+        <name>NU-Sci</name>
+        <time>2014-09-24T14:56:47Z</time>
+    </wpt>
+    <wpt lat="16.741895" lon="100.194116">
+        <name>NU-Sci</name>
+        <time>2014-09-24T14:56:57Z</time>
+    </wpt>
+    
+</gpx>

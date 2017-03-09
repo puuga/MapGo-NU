@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		412528AE1E71643800AFCF1A /* NU-dome.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 412528981E71643800AFCF1A /* NU-dome.gpx */; };
+		412528AF1E71643800AFCF1A /* NU-Dorm5-1.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 412528991E71643800AFCF1A /* NU-Dorm5-1.gpx */; };
+		412528B01E71643800AFCF1A /* NU-Dorm5-2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4125289A1E71643800AFCF1A /* NU-Dorm5-2.gpx */; };
+		412528B11E71643800AFCF1A /* NU-Front-GYM.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4125289B1E71643800AFCF1A /* NU-Front-GYM.gpx */; };
+		412528B21E71643800AFCF1A /* NU-Front-Poke.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4125289C1E71643800AFCF1A /* NU-Front-Poke.gpx */; };
+		412528B31E71643800AFCF1A /* NU-live.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4125289D1E71643800AFCF1A /* NU-live.gpx */; };
+		412528B41E71643800AFCF1A /* NU-Med-SCI.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4125289E1E71643800AFCF1A /* NU-Med-SCI.gpx */; };
+		412528B51E71643800AFCF1A /* NU-PaPa.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4125289F1E71643800AFCF1A /* NU-PaPa.gpx */; };
+		412528B61E71643800AFCF1A /* NU-Phamacy-GYM.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 412528A01E71643800AFCF1A /* NU-Phamacy-GYM.gpx */; };
+		412528B71E71643800AFCF1A /* NU-PraTep.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 412528A11E71643800AFCF1A /* NU-PraTep.gpx */; };
+		412528B81E71643800AFCF1A /* NU-president.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 412528A21E71643800AFCF1A /* NU-president.gpx */; };
+		412528B91E71643800AFCF1A /* NU-SCI-Center-2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 412528A31E71643800AFCF1A /* NU-SCI-Center-2.gpx */; };
+		412528BA1E71643800AFCF1A /* NU-SCI-Center.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 412528A41E71643800AFCF1A /* NU-SCI-Center.gpx */; };
+		412528BB1E71643800AFCF1A /* NU-SCI-GYM.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 412528A51E71643800AFCF1A /* NU-SCI-GYM.gpx */; };
+		412528BC1E71643800AFCF1A /* NU-SCI-MATH.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 412528A61E71643800AFCF1A /* NU-SCI-MATH.gpx */; };
+		412528BD1E71643800AFCF1A /* NU-SCI-SCIPARK.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 412528A71E71643800AFCF1A /* NU-SCI-SCIPARK.gpx */; };
+		412528BE1E71643800AFCF1A /* NU-SCI.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 412528A81E71643800AFCF1A /* NU-SCI.gpx */; };
+		412528BF1E71643800AFCF1A /* NU-SERT.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 412528A91E71643800AFCF1A /* NU-SERT.gpx */; };
+		412528C01E71643800AFCF1A /* NU-Social-GYM.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 412528AA1E71643800AFCF1A /* NU-Social-GYM.gpx */; };
+		412528C11E71643800AFCF1A /* NU-Social-Poke.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 412528AB1E71643800AFCF1A /* NU-Social-Poke.gpx */; };
+		412528C21E71643800AFCF1A /* NU-temp.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 412528AC1E71643800AFCF1A /* NU-temp.gpx */; };
+		412528C31E71643800AFCF1A /* NU-Textile-Museum.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 412528AD1E71643800AFCF1A /* NU-Textile-Museum.gpx */; };
 		4167C8E01E7162410011007A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4167C8DF1E7162410011007A /* AppDelegate.swift */; };
 		4167C8E21E7162410011007A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4167C8E11E7162410011007A /* ViewController.swift */; };
 		4167C8E51E7162410011007A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4167C8E31E7162410011007A /* Main.storyboard */; };
@@ -14,6 +36,9 @@
 		4167C8EA1E7162410011007A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4167C8E81E7162410011007A /* LaunchScreen.storyboard */; };
 		4167C8F51E7162410011007A /* MapGo_NUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4167C8F41E7162410011007A /* MapGo_NUTests.swift */; };
 		4167C9001E7162420011007A /* MapGo_NUUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4167C8FF1E7162420011007A /* MapGo_NUUITests.swift */; };
+		4B204E87250326E7DBAC69AD /* Pods_MapGo_NUTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F65CDDE717335F23AEC17F45 /* Pods_MapGo_NUTests.framework */; };
+		4D196D17D698C76F12F99B2A /* Pods_MapGo_NUUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C3DD39398A4C54E20E60D67 /* Pods_MapGo_NUUITests.framework */; };
+		A3A0F867908657AADA35D3A9 /* Pods_MapGo_NU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C8ACE5E4CAEB382AD417841 /* Pods_MapGo_NU.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +59,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E52760A06FF52D30AF8AFA0 /* Pods-MapGo-NUUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapGo-NUUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapGo-NUUITests/Pods-MapGo-NUUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D19B2F7F292E04665B779BD /* Pods-MapGo-NU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapGo-NU.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapGo-NU/Pods-MapGo-NU.release.xcconfig"; sourceTree = "<group>"; };
+		412528981E71643800AFCF1A /* NU-dome.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NU-dome.gpx"; sourceTree = "<group>"; };
+		412528991E71643800AFCF1A /* NU-Dorm5-1.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NU-Dorm5-1.gpx"; sourceTree = "<group>"; };
+		4125289A1E71643800AFCF1A /* NU-Dorm5-2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NU-Dorm5-2.gpx"; sourceTree = "<group>"; };
+		4125289B1E71643800AFCF1A /* NU-Front-GYM.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NU-Front-GYM.gpx"; sourceTree = "<group>"; };
+		4125289C1E71643800AFCF1A /* NU-Front-Poke.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NU-Front-Poke.gpx"; sourceTree = "<group>"; };
+		4125289D1E71643800AFCF1A /* NU-live.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NU-live.gpx"; sourceTree = "<group>"; };
+		4125289E1E71643800AFCF1A /* NU-Med-SCI.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NU-Med-SCI.gpx"; sourceTree = "<group>"; };
+		4125289F1E71643800AFCF1A /* NU-PaPa.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NU-PaPa.gpx"; sourceTree = "<group>"; };
+		412528A01E71643800AFCF1A /* NU-Phamacy-GYM.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NU-Phamacy-GYM.gpx"; sourceTree = "<group>"; };
+		412528A11E71643800AFCF1A /* NU-PraTep.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NU-PraTep.gpx"; sourceTree = "<group>"; };
+		412528A21E71643800AFCF1A /* NU-president.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NU-president.gpx"; sourceTree = "<group>"; };
+		412528A31E71643800AFCF1A /* NU-SCI-Center-2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NU-SCI-Center-2.gpx"; sourceTree = "<group>"; };
+		412528A41E71643800AFCF1A /* NU-SCI-Center.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NU-SCI-Center.gpx"; sourceTree = "<group>"; };
+		412528A51E71643800AFCF1A /* NU-SCI-GYM.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NU-SCI-GYM.gpx"; sourceTree = "<group>"; };
+		412528A61E71643800AFCF1A /* NU-SCI-MATH.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NU-SCI-MATH.gpx"; sourceTree = "<group>"; };
+		412528A71E71643800AFCF1A /* NU-SCI-SCIPARK.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NU-SCI-SCIPARK.gpx"; sourceTree = "<group>"; };
+		412528A81E71643800AFCF1A /* NU-SCI.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NU-SCI.gpx"; sourceTree = "<group>"; };
+		412528A91E71643800AFCF1A /* NU-SERT.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NU-SERT.gpx"; sourceTree = "<group>"; };
+		412528AA1E71643800AFCF1A /* NU-Social-GYM.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NU-Social-GYM.gpx"; sourceTree = "<group>"; };
+		412528AB1E71643800AFCF1A /* NU-Social-Poke.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NU-Social-Poke.gpx"; sourceTree = "<group>"; };
+		412528AC1E71643800AFCF1A /* NU-temp.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NU-temp.gpx"; sourceTree = "<group>"; };
+		412528AD1E71643800AFCF1A /* NU-Textile-Museum.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NU-Textile-Museum.gpx"; sourceTree = "<group>"; };
 		4167C8DC1E7162410011007A /* MapGo-NU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MapGo-NU.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4167C8DF1E7162410011007A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4167C8E11E7162410011007A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +96,13 @@
 		4167C8FB1E7162420011007A /* MapGo-NUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MapGo-NUUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4167C8FF1E7162420011007A /* MapGo_NUUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapGo_NUUITests.swift; sourceTree = "<group>"; };
 		4167C9011E7162420011007A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C3DD39398A4C54E20E60D67 /* Pods_MapGo_NUUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapGo_NUUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		641F67830FC3A08E8823DF3C /* Pods-MapGo-NU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapGo-NU.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapGo-NU/Pods-MapGo-NU.debug.xcconfig"; sourceTree = "<group>"; };
+		7C8ACE5E4CAEB382AD417841 /* Pods_MapGo_NU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapGo_NU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		940880C9F83BC713CB497CBF /* Pods-MapGo-NUTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapGo-NUTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapGo-NUTests/Pods-MapGo-NUTests.release.xcconfig"; sourceTree = "<group>"; };
+		B1660DF01E6F9BF83DF8B141 /* Pods-MapGo-NUTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapGo-NUTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapGo-NUTests/Pods-MapGo-NUTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCCB011819A266BF4051C02A /* Pods-MapGo-NUUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapGo-NUUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapGo-NUUITests/Pods-MapGo-NUUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F65CDDE717335F23AEC17F45 /* Pods_MapGo_NUTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapGo_NUTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3A0F867908657AADA35D3A9 /* Pods_MapGo_NU.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B204E87250326E7DBAC69AD /* Pods_MapGo_NUTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +126,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D196D17D698C76F12F99B2A /* Pods_MapGo_NUUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		412528C41E71643D00AFCF1A /* gpx */ = {
+			isa = PBXGroup;
+			children = (
+				412528981E71643800AFCF1A /* NU-dome.gpx */,
+				412528991E71643800AFCF1A /* NU-Dorm5-1.gpx */,
+				4125289A1E71643800AFCF1A /* NU-Dorm5-2.gpx */,
+				4125289B1E71643800AFCF1A /* NU-Front-GYM.gpx */,
+				4125289C1E71643800AFCF1A /* NU-Front-Poke.gpx */,
+				4125289D1E71643800AFCF1A /* NU-live.gpx */,
+				4125289E1E71643800AFCF1A /* NU-Med-SCI.gpx */,
+				4125289F1E71643800AFCF1A /* NU-PaPa.gpx */,
+				412528A01E71643800AFCF1A /* NU-Phamacy-GYM.gpx */,
+				412528A11E71643800AFCF1A /* NU-PraTep.gpx */,
+				412528A21E71643800AFCF1A /* NU-president.gpx */,
+				412528A31E71643800AFCF1A /* NU-SCI-Center-2.gpx */,
+				412528A41E71643800AFCF1A /* NU-SCI-Center.gpx */,
+				412528A51E71643800AFCF1A /* NU-SCI-GYM.gpx */,
+				412528A61E71643800AFCF1A /* NU-SCI-MATH.gpx */,
+				412528A71E71643800AFCF1A /* NU-SCI-SCIPARK.gpx */,
+				412528A81E71643800AFCF1A /* NU-SCI.gpx */,
+				412528A91E71643800AFCF1A /* NU-SERT.gpx */,
+				412528AA1E71643800AFCF1A /* NU-Social-GYM.gpx */,
+				412528AB1E71643800AFCF1A /* NU-Social-Poke.gpx */,
+				412528AC1E71643800AFCF1A /* NU-temp.gpx */,
+				412528AD1E71643800AFCF1A /* NU-Textile-Museum.gpx */,
+			);
+			name = gpx;
+			sourceTree = "<group>";
+		};
 		4167C8D31E7162410011007A = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +169,8 @@
 				4167C8F31E7162410011007A /* MapGo-NUTests */,
 				4167C8FE1E7162420011007A /* MapGo-NUUITests */,
 				4167C8DD1E7162410011007A /* Products */,
+				D467278575BE79355C171FCB /* Pods */,
+				F31C324C643359052DA2EEE7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +187,7 @@
 		4167C8DE1E7162410011007A /* MapGo-NU */ = {
 			isa = PBXGroup;
 			children = (
+				412528C41E71643D00AFCF1A /* gpx */,
 				4167C8DF1E7162410011007A /* AppDelegate.swift */,
 				4167C8E11E7162410011007A /* ViewController.swift */,
 				4167C8E31E7162410011007A /* Main.storyboard */,
@@ -125,6 +216,29 @@
 			path = "MapGo-NUUITests";
 			sourceTree = "<group>";
 		};
+		D467278575BE79355C171FCB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				641F67830FC3A08E8823DF3C /* Pods-MapGo-NU.debug.xcconfig */,
+				2D19B2F7F292E04665B779BD /* Pods-MapGo-NU.release.xcconfig */,
+				B1660DF01E6F9BF83DF8B141 /* Pods-MapGo-NUTests.debug.xcconfig */,
+				940880C9F83BC713CB497CBF /* Pods-MapGo-NUTests.release.xcconfig */,
+				1E52760A06FF52D30AF8AFA0 /* Pods-MapGo-NUUITests.debug.xcconfig */,
+				CCCB011819A266BF4051C02A /* Pods-MapGo-NUUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F31C324C643359052DA2EEE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C8ACE5E4CAEB382AD417841 /* Pods_MapGo_NU.framework */,
+				F65CDDE717335F23AEC17F45 /* Pods_MapGo_NUTests.framework */,
+				4C3DD39398A4C54E20E60D67 /* Pods_MapGo_NUUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4167C9041E7162420011007A /* Build configuration list for PBXNativeTarget "MapGo-NU" */;
 			buildPhases = (
+				1A7DAFFB5D6D090E51FAE442 /* [CP] Check Pods Manifest.lock */,
 				4167C8D81E7162410011007A /* Sources */,
 				4167C8D91E7162410011007A /* Frameworks */,
 				4167C8DA1E7162410011007A /* Resources */,
+				11F6FF14B7D5E7C10F7BF421 /* [CP] Embed Pods Frameworks */,
+				A6FEC41E41F4D754F4F2C612 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +266,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4167C9071E7162420011007A /* Build configuration list for PBXNativeTarget "MapGo-NUTests" */;
 			buildPhases = (
+				9D385726F6B309F4C2C55E23 /* [CP] Check Pods Manifest.lock */,
 				4167C8EC1E7162410011007A /* Sources */,
 				4167C8ED1E7162410011007A /* Frameworks */,
 				4167C8EE1E7162410011007A /* Resources */,
+				891542E8F1A366A924E9BDCF /* [CP] Embed Pods Frameworks */,
+				EDAE23AA0F4CB9BAC4D6FFB1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +287,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4167C90A1E7162420011007A /* Build configuration list for PBXNativeTarget "MapGo-NUUITests" */;
 			buildPhases = (
+				A65162FD45067C307EAC3022 /* [CP] Check Pods Manifest.lock */,
 				4167C8F71E7162420011007A /* Sources */,
 				4167C8F81E7162420011007A /* Frameworks */,
 				4167C8F91E7162420011007A /* Resources */,
+				D312000E7F3D2839D943A1B7 /* [CP] Embed Pods Frameworks */,
+				17B812A4081CE57FCC96E38C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,9 +358,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				412528B91E71643800AFCF1A /* NU-SCI-Center-2.gpx in Resources */,
+				412528B51E71643800AFCF1A /* NU-PaPa.gpx in Resources */,
+				412528B11E71643800AFCF1A /* NU-Front-GYM.gpx in Resources */,
 				4167C8EA1E7162410011007A /* LaunchScreen.storyboard in Resources */,
+				412528BC1E71643800AFCF1A /* NU-SCI-MATH.gpx in Resources */,
+				412528C01E71643800AFCF1A /* NU-Social-GYM.gpx in Resources */,
+				412528C21E71643800AFCF1A /* NU-temp.gpx in Resources */,
+				412528B81E71643800AFCF1A /* NU-president.gpx in Resources */,
+				412528AE1E71643800AFCF1A /* NU-dome.gpx in Resources */,
+				412528B61E71643800AFCF1A /* NU-Phamacy-GYM.gpx in Resources */,
+				412528B41E71643800AFCF1A /* NU-Med-SCI.gpx in Resources */,
+				412528BF1E71643800AFCF1A /* NU-SERT.gpx in Resources */,
+				412528BB1E71643800AFCF1A /* NU-SCI-GYM.gpx in Resources */,
+				412528BE1E71643800AFCF1A /* NU-SCI.gpx in Resources */,
+				412528B71E71643800AFCF1A /* NU-PraTep.gpx in Resources */,
+				412528B21E71643800AFCF1A /* NU-Front-Poke.gpx in Resources */,
+				412528B31E71643800AFCF1A /* NU-live.gpx in Resources */,
+				412528BA1E71643800AFCF1A /* NU-SCI-Center.gpx in Resources */,
 				4167C8E71E7162410011007A /* Assets.xcassets in Resources */,
+				412528C31E71643800AFCF1A /* NU-Textile-Museum.gpx in Resources */,
+				412528BD1E71643800AFCF1A /* NU-SCI-SCIPARK.gpx in Resources */,
+				412528B01E71643800AFCF1A /* NU-Dorm5-2.gpx in Resources */,
 				4167C8E51E7162410011007A /* Main.storyboard in Resources */,
+				412528C11E71643800AFCF1A /* NU-Social-Poke.gpx in Resources */,
+				412528AF1E71643800AFCF1A /* NU-Dorm5-1.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +401,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11F6FF14B7D5E7C10F7BF421 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapGo-NU/Pods-MapGo-NU-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		17B812A4081CE57FCC96E38C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapGo-NUUITests/Pods-MapGo-NUUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A7DAFFB5D6D090E51FAE442 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		891542E8F1A366A924E9BDCF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapGo-NUTests/Pods-MapGo-NUTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D385726F6B309F4C2C55E23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A65162FD45067C307EAC3022 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A6FEC41E41F4D754F4F2C612 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapGo-NU/Pods-MapGo-NU-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D312000E7F3D2839D943A1B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapGo-NUUITests/Pods-MapGo-NUUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDAE23AA0F4CB9BAC4D6FFB1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapGo-NUTests/Pods-MapGo-NUTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4167C8D81E7162410011007A /* Sources */ = {
@@ -411,6 +694,7 @@
 		};
 		4167C9051E7162420011007A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 641F67830FC3A08E8823DF3C /* Pods-MapGo-NU.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XYW2JG27N9;
@@ -424,6 +708,7 @@
 		};
 		4167C9061E7162420011007A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D19B2F7F292E04665B779BD /* Pods-MapGo-NU.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XYW2JG27N9;
@@ -437,6 +722,7 @@
 		};
 		4167C9081E7162420011007A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1660DF01E6F9BF83DF8B141 /* Pods-MapGo-NUTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +738,7 @@
 		};
 		4167C9091E7162420011007A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 940880C9F83BC713CB497CBF /* Pods-MapGo-NUTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -467,6 +754,7 @@
 		};
 		4167C90B1E7162420011007A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E52760A06FF52D30AF8AFA0 /* Pods-MapGo-NUUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = XYW2JG27N9;
@@ -481,6 +769,7 @@
 		};
 		4167C90C1E7162420011007A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCCB011819A266BF4051C02A /* Pods-MapGo-NUUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = XYW2JG27N9;
@@ -512,6 +801,7 @@
 				4167C9061E7162420011007A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4167C9071E7162420011007A /* Build configuration list for PBXNativeTarget "MapGo-NUTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +810,7 @@
 				4167C9091E7162420011007A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4167C90A1E7162420011007A /* Build configuration list for PBXNativeTarget "MapGo-NUUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +819,7 @@
 				4167C90C1E7162420011007A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
