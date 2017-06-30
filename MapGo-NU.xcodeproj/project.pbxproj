@@ -83,6 +83,9 @@
 		412528AB1E71643800AFCF1A /* NU-Social-Poke.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NU-Social-Poke.gpx"; sourceTree = "<group>"; };
 		412528AC1E71643800AFCF1A /* NU-temp.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NU-temp.gpx"; sourceTree = "<group>"; };
 		412528AD1E71643800AFCF1A /* NU-Textile-Museum.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NU-Textile-Museum.gpx"; sourceTree = "<group>"; };
+		416043681EB4A4BC00E72036 /* NU-GYM-SERT.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "NU-GYM-SERT.gpx"; sourceTree = "<group>"; };
+		416043691EB4BEE900E72036 /* NU-GYM-GirlFountain.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "NU-GYM-GirlFountain.gpx"; sourceTree = "<group>"; };
+		4160436A1EB4C33D00E72036 /* NU-GYM-PornwalaiDorm.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "NU-GYM-PornwalaiDorm.gpx"; sourceTree = "<group>"; };
 		4167C8DC1E7162410011007A /* MapGo-NU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MapGo-NU.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4167C8DF1E7162410011007A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4167C8E11E7162410011007A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -144,6 +147,7 @@
 				4125289D1E71643800AFCF1A /* NU-live.gpx */,
 				4125289E1E71643800AFCF1A /* NU-Med-SCI.gpx */,
 				4125289F1E71643800AFCF1A /* NU-PaPa.gpx */,
+				416043691EB4BEE900E72036 /* NU-GYM-GirlFountain.gpx */,
 				412528A01E71643800AFCF1A /* NU-Phamacy-GYM.gpx */,
 				412528A11E71643800AFCF1A /* NU-PraTep.gpx */,
 				412528A21E71643800AFCF1A /* NU-president.gpx */,
@@ -157,6 +161,8 @@
 				412528AA1E71643800AFCF1A /* NU-Social-GYM.gpx */,
 				412528AB1E71643800AFCF1A /* NU-Social-Poke.gpx */,
 				412528AC1E71643800AFCF1A /* NU-temp.gpx */,
+				4160436A1EB4C33D00E72036 /* NU-GYM-PornwalaiDorm.gpx */,
+				416043681EB4A4BC00E72036 /* NU-GYM-SERT.gpx */,
 				412528AD1E71643800AFCF1A /* NU-Textile-Museum.gpx */,
 			);
 			name = gpx;
