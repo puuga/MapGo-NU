@@ -168,6 +168,15 @@
 			name = gpx;
 			sourceTree = "<group>";
 		};
+		414FC42F1F65AF5400253EBA /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4167C8E31E7162410011007A /* Main.storyboard */,
+				4167C8E81E7162410011007A /* LaunchScreen.storyboard */,
+			);
+			name = storyboard;
+			sourceTree = "<group>";
+		};
 		4167C8D31E7162410011007A = {
 			isa = PBXGroup;
 			children = (
@@ -193,13 +202,12 @@
 		4167C8DE1E7162410011007A /* MapGo-NU */ = {
 			isa = PBXGroup;
 			children = (
-				412528C41E71643D00AFCF1A /* gpx */,
+				4167C8EB1E7162410011007A /* Info.plist */,
 				4167C8DF1E7162410011007A /* AppDelegate.swift */,
 				4167C8E11E7162410011007A /* ViewController.swift */,
-				4167C8E31E7162410011007A /* Main.storyboard */,
 				4167C8E61E7162410011007A /* Assets.xcassets */,
-				4167C8E81E7162410011007A /* LaunchScreen.storyboard */,
-				4167C8EB1E7162410011007A /* Info.plist */,
+				412528C41E71643D00AFCF1A /* gpx */,
+				414FC42F1F65AF5400253EBA /* storyboard */,
 			);
 			path = "MapGo-NU";
 			sourceTree = "<group>";
@@ -256,7 +264,6 @@
 				4167C8D81E7162410011007A /* Sources */,
 				4167C8D91E7162410011007A /* Frameworks */,
 				4167C8DA1E7162410011007A /* Resources */,
-				11F6FF14B7D5E7C10F7BF421 /* [CP] Embed Pods Frameworks */,
 				A6FEC41E41F4D754F4F2C612 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -276,8 +283,6 @@
 				4167C8EC1E7162410011007A /* Sources */,
 				4167C8ED1E7162410011007A /* Frameworks */,
 				4167C8EE1E7162410011007A /* Resources */,
-				891542E8F1A366A924E9BDCF /* [CP] Embed Pods Frameworks */,
-				EDAE23AA0F4CB9BAC4D6FFB1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -297,8 +302,6 @@
 				4167C8F71E7162420011007A /* Sources */,
 				4167C8F81E7162420011007A /* Frameworks */,
 				4167C8F91E7162420011007A /* Resources */,
-				D312000E7F3D2839D943A1B7 /* [CP] Embed Pods Frameworks */,
-				17B812A4081CE57FCC96E38C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -323,17 +326,20 @@
 					4167C8DB1E7162410011007A = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = XYW2JG27N9;
+						LastSwiftMigration = 0930;
 						ProvisioningStyle = Automatic;
 					};
 					4167C8EF1E7162410011007A = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = XYW2JG27N9;
+						LastSwiftMigration = 0930;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 4167C8DB1E7162410011007A;
 					};
 					4167C8FA1E7162420011007A = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = XYW2JG27N9;
+						LastSwiftMigration = 0930;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 4167C8DB1E7162410011007A;
 					};
@@ -409,36 +415,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		11F6FF14B7D5E7C10F7BF421 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapGo-NU/Pods-MapGo-NU-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		17B812A4081CE57FCC96E38C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapGo-NUUITests/Pods-MapGo-NUUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		1A7DAFFB5D6D090E51FAE442 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -455,21 +431,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		891542E8F1A366A924E9BDCF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapGo-NUTests/Pods-MapGo-NUTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9D385726F6B309F4C2C55E23 /* [CP] Check Pods Manifest.lock */ = {
@@ -519,41 +480,11 @@
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapGo-NU/Pods-MapGo-NU-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D312000E7F3D2839D943A1B7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapGo-NUUITests/Pods-MapGo-NUUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EDAE23AA0F4CB9BAC4D6FFB1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapGo-NUTests/Pods-MapGo-NUTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -659,7 +590,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -702,7 +633,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -717,10 +648,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XYW2JG27N9;
 				INFOPLIST_FILE = "MapGo-NU/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.siwaweswongcharoen.MapGo-NU";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -731,10 +664,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XYW2JG27N9;
 				INFOPLIST_FILE = "MapGo-NU/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.siwaweswongcharoen.MapGo-NU";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -749,7 +684,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.siwaweswongcharoen.MapGo-NUTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapGo-NU.app/MapGo-NU";
 			};
 			name = Debug;
@@ -765,7 +701,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.siwaweswongcharoen.MapGo-NUTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapGo-NU.app/MapGo-NU";
 			};
 			name = Release;
@@ -780,7 +717,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.siwaweswongcharoen.MapGo-NUUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = "MapGo-NU";
 			};
 			name = Debug;
@@ -795,7 +733,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.siwaweswongcharoen.MapGo-NUUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = "MapGo-NU";
 			};
 			name = Release;
